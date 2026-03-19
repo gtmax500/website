@@ -27,16 +27,19 @@ description: Integrate Pocket ID with LubeLogger
 1. Open LubeLogger and navigate to:
    **`User Icon > Configure > Acknowledge and Continue > Next > Next > Next > Single Sing On`**
 2. Copy/Enter the following values from Pocket-ID. Leave all others empty/default
-   LubeLogger   | Pocket-ID Value
-   OIDC Provider:      Pocket-ID
-   OIDC Client ID:     Client ID
-   OIDC Client Secret: Client Secret
-   OIDC Auth URL:      Authorization URL
-   OIDC Token URL:     Token URL
-   OIDC UserInfo URL:  Userinfo URL
-   OIDC JWKS URL:      Certificate URL
-   OIDC Logout URL:    Logout URL
-   OIDC USE PKCE:      True
+   
+   |LubeLogger|Pocket-ID Value|
+   |---|---|
+   |OIDC Provider|Pocket-ID|
+   |OIDC Client ID|Client ID|
+   |OIDC Client Secret|Client Secret|
+   |OIDC Auth URL|Authorization URL|
+   |OIDC Token URL|Token URL|
+   |OIDC UserInfo URL|Userinfo URL|
+   |OIDC JWKS URL|Certificate URL|
+   |OIDC Logout URL|Logout URL|
+   |OIDC USE PKCE|True|
+   
 4. Click **Next**
 5. Enable OIDC for Root User
 6. Enter Root User Email Address
